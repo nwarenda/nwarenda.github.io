@@ -32,7 +32,6 @@ padding: 10px 15px;
   
         body, 
         .piechart { 
-            display: flex; 
             justify-content: left; 
             align-items: left; 
         } 
