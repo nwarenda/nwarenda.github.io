@@ -18,10 +18,7 @@ padding: 10px 15px;
 }
 
 /* Spagetthi Code */
-.piechart { 
-            margin-top: 40px; 
-            display: block; 
-            position: fixed; 
+.piechart {  
             width: 300px; 
             height: 300px; 
             border-radius: 50%; 
