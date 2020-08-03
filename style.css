@@ -8,7 +8,8 @@ color: white;
 }
 
 #resume{
- background-color: grey;
- border-radius: 3px;
- color: white;
+background-color: lightgray;
+border-radius: 3px;
+color: black;
+padding: 10px 15px;
 }
