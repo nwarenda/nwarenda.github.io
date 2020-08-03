@@ -5,6 +5,8 @@ background-color: black;
 
 h1{
 color: white;
+position: absolute;
+float: center;
 }
 
 #resume{
