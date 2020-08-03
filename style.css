@@ -6,3 +6,8 @@ background-color: black;
 h1{
 color: white;
 }
+
+#resume{
+ background-color: grey;
+ border-radius 3px;
+}
