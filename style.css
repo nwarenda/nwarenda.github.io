@@ -1,4 +1,4 @@
-html{
+body{
 background-color: black;
 }
 
@@ -10,4 +10,5 @@ color: white;
 #resume{
  background-color: grey;
  border-radius 3px;
+ color: white;
 }
