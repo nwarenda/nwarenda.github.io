@@ -25,6 +25,9 @@ text-shadow: 3px 1px #a83242;
 
 }
 
+#spacearound {
+justify-content: space-around;
+}
 
 #resume{
 background-color: lightgray;
