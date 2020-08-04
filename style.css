@@ -18,10 +18,11 @@ text-shadow: 3px 1px #a83242;
 }
 
 .button{
-  color: #1a0600;
-  background-color: #b32d00;
+  color: white;
+  background-color: #555555;;
   width: 30%;
   display: inline-block;
+  
 
 }
 
