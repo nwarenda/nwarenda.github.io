@@ -11,14 +11,15 @@ text-shadow: 3px 1px #a83242;
 }
 
 .container {
-  height: 150px;
+  height: 70px;
   width: 100%;
   display: flex;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .button{
-  background-color: white;
+  color: #1a0600;
+  background-color: #b32d00;
   width: 30%;
   display: inline-block;
 
