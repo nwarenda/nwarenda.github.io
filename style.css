@@ -20,6 +20,7 @@ text-shadow: 3px 1px #a83242;
 .button{
      display: inline-flex;
    justify-content: space-around;
+  background-color: white;
 }
 
 
