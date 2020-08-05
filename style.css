@@ -59,6 +59,7 @@ display: flex;
 #resume-right{
   display: inline-block;
   float:right;
+  text-align:right;
 }
 
 
