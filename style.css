@@ -53,7 +53,7 @@ display: flex;
 
 #resume-left{
   display: inline-block;
-  
+  width: 40%;
 }
 
 #resume-right{
@@ -61,6 +61,8 @@ display: flex;
   float:right;
   text-align:right;
   margin-left: 60px;
+  width: 40%;
+
 }
 
 
