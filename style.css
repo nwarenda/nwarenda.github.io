@@ -28,6 +28,10 @@ font-size: 30px;
 text-align: left;
 }
 
+.button:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
 
 
 #spacearound {
@@ -47,12 +51,12 @@ overflow: scroll;
 }
 
 
-#left.resume{
+#left.#resume{
   
  float:left; 
 }
 
-#right.resume{
+#right.#resume{
   
  float:right; 
 }
