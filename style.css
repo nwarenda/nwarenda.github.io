@@ -46,6 +46,17 @@ overflow: scroll;
 
 }
 
+
+#left, #resume{
+  
+ float:left; 
+}
+
+#right, #resume{
+  
+ float:right; 
+}
+
 /* Spagetthi Code */
 .piechart {  
             width: 300px; 
