@@ -60,6 +60,7 @@ display: flex;
   display: inline-block;
   float:right;
   text-align:right;
+  margin-left: 30px;
 }
 
 
