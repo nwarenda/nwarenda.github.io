@@ -47,6 +47,17 @@ color: black;
 padding: 10px 15px;
 margin: 30px;
 overflow: scroll;
+display: flex;
+
+}
+
+#resume-left{
+  display: inline-block;
+  
+}
+
+#resume-right{
+  display: inline-block;
 
 }
 
