@@ -25,11 +25,12 @@ font-family: 'Montserrat', sans-serif;
 .button{
   color: white;
   background-color: #555555;;
-  width: 30%;
+  width: 20%;
   display: inline-block;
 font-family: 'Montserrat', sans-serif;
 font-size: 30px;
 text-align: left;
+ 
 }
 
 .button:hover {
