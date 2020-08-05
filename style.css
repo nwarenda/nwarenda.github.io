@@ -75,10 +75,12 @@ font-size: 24px;
 
 /* Spagetthi Code */
 .piechart {  
-            width: 340px; 
-            height: 340px; 
+            width: 370px; 
+            height: 370px; 
             border-radius: 50%; 
             margin-bottom: 60px;
+            margin-right: 20px;
+
             background-image: conic-gradient(  
 /* Linux */ maroon 0 30deg,
 /* Javascript */ orange 0 60deg,
