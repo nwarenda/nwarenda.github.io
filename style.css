@@ -51,12 +51,12 @@ overflow: scroll;
 }
 
 
-#left.#resume{
+#left #resume{
   
  float:left; 
 }
 
-#right.#resume{
+#right #resume{
   
  float:right; 
 }
