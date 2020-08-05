@@ -58,12 +58,14 @@ display: flex;
 #resume-left{
   display: inline-block;
   width: 40%;
+font-size: 24px;
+
 }
 
 #resume-right{
   display: inline-block;
   float:right;
-  text-align:right;
+  text-align:left;
   margin-left: 60px;
   width: 40%;
   font-size: 24px;
