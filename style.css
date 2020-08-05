@@ -85,6 +85,6 @@ display: flex;
   
         body, 
         .piechart { 
-            justify-content: left; 
-            align-items: left; 
+            justify-content: right; 
+            align-items: right; 
         } 
