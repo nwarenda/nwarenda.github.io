@@ -5,6 +5,7 @@
 
 html{
 background-image: url("/mars.jpg");
+background-size: cover;
 }
 
 h1{
