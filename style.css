@@ -73,7 +73,7 @@ font-size: 24px;
 }
 
 
-/* Spagetthi Code */
+/* Spagetthi Code 
 .piechart {  
             width: 370px; 
             height: 370px; 
@@ -82,14 +82,29 @@ font-size: 24px;
             margin-right: 20px;
 
             background-image: conic-gradient(  
-/* Linux */ maroon 0 30deg,
-/* Javascript */ orange 0 60deg,
-/* HTML/CSS */ green 0 90deg,
-/* C++ */ purple 0 180deg,
- /* Java */ #339999 0 280deg); 
-        } 
+*/
+/* Linux  maroon 0 30deg, */
+/* Javascript  orange 0 60deg, */
+/* HTML/CSS  green 0 90deg, */
+/* C++  purple 0 180deg, */
+ /* Java  #339999 0 280deg);  */
+       /* } 
   
         body, 
         .piechart { 
             justify-content: left; 
         } 
+*/
+
+.projects{
+background-color: lightgray;
+border-radius: 3px;
+border-color: white;
+border-style: solid;
+color: black;
+padding: 10px 15px;
+overflow: scroll;
+display: flex;
+  margin: 50px;
+
+}
