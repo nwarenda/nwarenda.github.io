@@ -12,3 +12,4 @@ Aug 5th 6:45 PM: Added skills and hobbies to resume, fixed a lot of the issues b
 Aug 5th 10:10 PM: Whew-I'm finally done-ish the resume landing page. Might add some more, need some time to think about it.
 NOTE: Add a legend showing the colors and how many years.
 
+Aug 7th 1:00 PM: The resume is done! Next I need to work on and complete the project page.
