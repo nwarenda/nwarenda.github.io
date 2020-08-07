@@ -52,7 +52,8 @@ color: black;
 padding: 10px 15px;
 overflow: scroll;
 display: flex;
-  margin: 50px;
+  margin: 50px
+      opacity: 0.8;
 
 }
 
@@ -106,5 +107,6 @@ padding: 10px 15px;
 overflow: scroll;
 display: flex;
   margin: 50px;
+      opacity: 0.8;
 
 }
