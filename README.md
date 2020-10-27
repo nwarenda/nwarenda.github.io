@@ -13,3 +13,5 @@ Aug 5th 10:10 PM: Whew-I'm finally done-ish the resume landing page. Might add s
 NOTE: Add a legend showing the colors and how many years.
 
 Aug 7th 1:00 PM: The resume is done! Next I need to work on and complete the project page.
+
+Oct 27th 3:00 PM: Added High Noon V1 demo
