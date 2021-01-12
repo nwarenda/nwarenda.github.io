@@ -5,7 +5,7 @@
 
 html{
 background-image: url("/Screen Shot 2020-12-09 at 11.42.12 PM.png"); /* WHAAAAAAT A URL */
-background-size: cover;
+background-size: auto; /*cover */
 background-repeat: no-repeat;
 }
 
