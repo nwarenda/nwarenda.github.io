@@ -15,3 +15,5 @@ NOTE: Add a legend showing the colors and how many years.
 Aug 7th 1:00 PM: The resume is done! Next I need to work on and complete the project page.
 
 Oct 27th 3:00 PM: Added High Noon V1 demo
+
+Feb 7th: Added secret, but gotta finish and add photos and videos from secret ig account hidden with password. if youre reading this, to see the w.i.p go to: .io/secret.html
