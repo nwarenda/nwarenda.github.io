@@ -1,0 +1,3 @@
+if (password == "nkwr42") {
+  
+}
