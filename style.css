@@ -31,11 +31,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-size: 30px;
 text-align: left;
- 
 }
 
 .button:hover {
-  background: #8b0000;
+  background: #8993333;
   color: #FFF;
 }
 
