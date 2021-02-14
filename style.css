@@ -25,7 +25,7 @@ font-family: 'Montserrat', sans-serif;
 
 .button{
   color: white;
-  background-color: #555555;;
+  background-color: #555555;
   width: 27%;
   display: inline-block;
 font-family: 'Montserrat', sans-serif;
@@ -34,7 +34,7 @@ text-align: left;
 }
 
 .button:hover {
-  background: #8993333;
+  background: #993333;
   color: #FFF;
 }
 
