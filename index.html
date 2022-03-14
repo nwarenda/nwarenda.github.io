@@ -1,102 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-   <link rel="stylesheet" type="text/css" href="style.css">
-   <link rel="icon" href="https://image.flaticon.com/icons/svg/252/252336.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> <!-- FONT -->
-    <title> "Welcome to My Portfolio!" </title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | High Noon</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  
-  
   <body>
-    
-   <h1> Nick Warenda's Portfolio </h1>
-    <br>    
-    
-    <div class="container" id="spaceevenly">
-    <button class="button" style="background-color: #993333">Resume   <img src="resume.png" height="35" style="float:right;" alt="resume"/> </button>
-    <button class="button" onClick="window.location.href='/projects.html';" >Projects               <img src="project.png" height="35" style="float:right;" alt="project"/> </button>
-    <button class="button" onClick="window.location.href='https://github.com/nickwar42';" >Github   <img src="github.png" height="35" style="float:right;" alt="github"/> </button>
-  </div>
-    
-   <br>
-    
-    
-   <!-- Resume -->
-    <div class="resume">
-      
-      
-      <div id="resume-left" >    
-      <h2 style="font-size: 30px;"> My Resume:  </h2>
-      <p> Hey, I'm Nick! I'm currently a Laurentian student, taking courses to improve my Computer Science skills. My latest project is High Noon V1. This photo is of me and my niece. </p>
-      
-        <h3> Skills: </h3>  
-        
-        <ul>
-          <li> Leadership </li>
-          <li> Organization </li>
-          <li> Work Ethic </li>
-          <li> Creativity </li>
-        </ul>
-        
-      <h3> Hobbies: </h3>  
-        <ul>
-          <li> Mountain Biking </li>
-          <li> Golfing </li>
-          <li> Podcasts </li>
-          <li> Music </li>
-          <li> Meeting new people </li>
-        </ul>
-        
-        
-       <h3> Languages: </h3>
-        <ul style="font-size: 35px;">
-          <li style="color: navy;"> Java - 3 Years</li>
-          <li style="color: purple;"> C++ - 2 Years</li>
-          <li style="color: limegreen;"> HTML/CSS - 1 Year + </li>
-          <li style="color: orange;"> JS / PHP - 1 Year</li>
-         <li style="color: red;"> Linux - 1 Year</li>
-        </ul>
-        
-
-      </div>
-      
-      
-      <div id="resume-right">
-        
-        <img src="/IMG_1712.JPG" style="border: 1px solid #ddd;   width: 250px; float:right;" alt="profilepic"> 
-
-        <h2 style="font-size: 30px;"> My Info:  </h2>
-        <p> Name: Nick Warenda </p>
-        <p> Email: nwarenda @ laurentian (dot) ca </p>
-        <p href="https://www.linkedin.com/in/nicholaswarenda/"> LinkedIn: https://www.linkedin.com/in/nicholaswarenda/ <p>
-        
-        <h3> Education: </h3>
-
-        <p><strong>Laurentian University </strong> </p>
-        <p>   Bachelor of Computer Science </p>
-        
-
-        <p>  2018 - 2022 </p>
-
-        <img src="skills.png" alt="skills">
-       
-        <!-- Danger: Chernobyl Zone 
-        <div class="piechart" style="float:right;   z-index: -1; bottom: 40px;"> 
-        <img src="java.png" style="position: absolute; bottom: -90px; right: 330px; width: 100px;"> 
-        <img src="cpp.png"style="position: absolute; bottom: -155px; right: 180px; width: 80px;" > 
-        <img src="csshtml.png"style="position: absolute; bottom: -40px; right: 140px; width: 60px;" > 
-        <img src="linux.png" style="position: absolute; bottom: 50px; right: 250px; width: 50px;"> 
-        <img src="php.svg" style="position: absolute; bottom: -10px; right: 120px; width: 60px;"> 
-        <img src="js.png" style="position: absolute; bottom: 30px; right: 180px; width: 40px;"> 
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
         </div>
-        -->
-        
-
-
       </div>
-      
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">High Noon</div>
+      </div>
     </div>
-    
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/WebGLBuild.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/WebGLBuild.data.gz",
+        frameworkUrl: buildUrl + "/WebGLBuild.framework.js.gz",
+        codeUrl: buildUrl + "/WebGLBuild.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "High Noon",
+        productVersion: "1",
+        showBanner: unityShowBanner,
+      };
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        // Avoid draining fillrate performance on mobile devices,
+        // and default/override low DPI mode on mobile browsers.
+        config.devicePixelRatio = 1;
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
+      } else {
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+      }
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
   </body>
 </html>
