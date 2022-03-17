@@ -78,7 +78,7 @@ font-size: 24px;
 }
 
 #music{
-    
+justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 480px) {
