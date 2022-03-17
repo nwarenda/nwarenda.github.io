@@ -5,7 +5,7 @@
 
 html{
 background-image: url("/HighNoon.png"); /* WHAAAAAAT A URL */
-background-size: auto; /*cover */
+background-size: cover; /*cover */
 background-repeat: no-repeat;
 background-color: #E0A890;
 background-position: center;
@@ -78,32 +78,8 @@ font-size: 24px;
 }
 
 #music{
-  display: inline-block;
+    
 }
-
-
-/* Spagetthi Code 
-.piechart {  
-            width: 370px; 
-            height: 370px; 
-            border-radius: 50%; 
-            margin-bottom: 60px;
-            margin-right: 20px;
-
-            background-image: conic-gradient(  
-*/
-/* Linux  maroon 0 30deg, */
-/* Javascript  orange 0 60deg, */
-/* HTML/CSS  green 0 90deg, */
-/* C++  purple 0 180deg, */
- /* Java  #339999 0 280deg);  */
-       /* } 
-  
-        body, 
-        .piechart { 
-            justify-content: left; 
-        } 
-*/
 
 @media only screen and (max-width: 480px) {
   #spaceevenly{
