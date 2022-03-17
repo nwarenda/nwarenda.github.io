@@ -1,8 +1,5 @@
 # nickwar42.github.io
 
-This is my repo for deploying my website using GitLabs.
-Will eventually be fully coded in HTML, CSS, JS, maybe some JS frameworks? Who knows.
-
 Aug 3rd 7:30 PM: The homepage is started, and features a resume area. Need to add more info, and work on the css properties of the site.
 
 Aug 4th 4:40 PM: Added and put space between buttons. Resume still needs to be worked on.
@@ -16,4 +13,4 @@ Aug 7th 1:00 PM: The resume is done! Next I need to work on and complete the pro
 
 Oct 27th 3:00 PM: Added High Noon V1 demo
 
-Mar 16: Added High Noon playable demo, fixed some CSS/HTML, changed resume, added "listening to" section.
+Mar 16: Added High Noon playable demo, fixed some CSS/HTML, changed resume, working on "Favourite Music" section.
