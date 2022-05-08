@@ -58,7 +58,8 @@ height: 100%;
   height: 200px;
   padding: 5px;
   content: url("cowboyhat.png");
-  filter: drop-shadow(10px 10px 4px #000000);"
+  /*filter: drop-shadow(10px 10px 4px #000000); */
+    filter: drop-shadow(10px 10px 4px #FFFFFF);
 }
 
 .cabingame { /* name pending */ 
