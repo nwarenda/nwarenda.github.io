@@ -48,7 +48,7 @@ height: 100%;
   width: 200px;
   height: 200px;
   padding: 5px;
-  background-image: url("cowboyhat.png");
+  content: url("cowboyhat.png");
   filter: drop-shadow(10px 10px 4px #000000);"
 }
 
@@ -56,7 +56,7 @@ height: 100%;
   width: 200px;
   height: 200px;
   padding: 5px;
-  background-image: url("cabingame.png");
+  content: url("cabingame.png");
   filter: drop-shadow(10px 10px 4px #000000);"
 }
 
