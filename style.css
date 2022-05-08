@@ -61,6 +61,10 @@ text-align: left;
 justify-content: space-evenly;
 }
 
+#gameshelf{
+justify-content: space-evenly;
+}
+
 @media only screen and (max-width: 480px) {
   #spaceevenly{
      width: 80%;
