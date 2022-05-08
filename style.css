@@ -44,11 +44,20 @@ height: 100%;
   margin-right: auto;
 }
 
-.example { /* Of course, you can delete this */
+.highnoon { 
   width: 200px;
   height: 200px;
   padding: 5px;
-  background-color: magenta;
+  background-image: url("cowboyhat.png");
+  filter: drop-shadow(10px 10px 4px #000000);"
+}
+
+.cabingame { /* name pending */ 
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  background-image: url("cabingame.png");
+  filter: drop-shadow(10px 10px 4px #000000);"
 }
 
 /* borrowed */
