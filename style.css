@@ -44,6 +44,13 @@ height: 100%;
   margin-right: auto;
 }
 
+.example { /* Of course, you can delete this */
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  background-color: magenta;
+}
+
 /* borrowed */
 
 h1{
