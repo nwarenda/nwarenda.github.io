@@ -56,7 +56,6 @@ height: 100%;
 .highnoongame { /* contains tile art for highnoon */
   width: 200px;
   height: 200px;
-  padding: 5px;
   border: 1px solid white;
   content: url("cowboyhat.png");
     filter: drop-shadow(10px 10px 4px #000000);
@@ -65,7 +64,6 @@ height: 100%;
 .cabingame { /* name pending */ 
   width: 200px;
   height: 200px;
-  padding: 5px;
   content: url("cabingame.png");
   filter: drop-shadow(10px 10px 4px #000000);"
 }
