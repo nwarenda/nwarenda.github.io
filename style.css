@@ -4,12 +4,20 @@
 */
 
 html{
-background-image: url("/HighNoon.png"); /* WHAAAAAAT A URL */
-background-size: cover; /*cover */
+background-image: url("/background.png");
+background-size: cover;
 background-repeat: no-repeat;
 background-color: #E0A890;
-background-position: center;
- 
+background-position: center; 
+height: 100%;
+}
+
+.highnoon {
+background-image: url("/HighNoon.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #E0A890;
+background-position: center; 
 height: 100%;
 }
 
@@ -20,6 +28,7 @@ text-shadow: 3px 1px #a83242;
 font-family: 'Montserrat', sans-serif;
   font-size: 64px;
 }
+
 h2{
 color: white;
 text-align: center;
@@ -48,42 +57,7 @@ text-align: left;
   color: #FFF;
 }
 
-
 #spaceevenly {
-justify-content: space-evenly;
-}
-
-.resume{
-background-color: lightgray;
-border-radius: 3px;
-border-color: white;
-border-style: solid;
-color: black;
-padding: 10px 15px;
-overflow: scroll;
-display: flex;
-  margin: 50px;
-      opacity: 0.8;
-
-}
-
-#resume-left{
-  display: inline-block;
-  width: 40%;
-font-size: 24px;
-
-}
-
-#resume-right{
-  display: inline-block;
-  float:right;
-  text-align:left;
-  width: 55%;
-  font-size: 24px;
-
-}
-
-#music{
 justify-content: space-evenly;
 }
 
