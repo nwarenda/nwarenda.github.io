@@ -48,7 +48,8 @@ height: 100%;
 .gameshelf {
   display: block;
   z-index: 9;
-  content: url("https://i.imgur.com/1QepZRl.png");
+  /*content: url("https://i.imgur.com/1QepZRl.png");*/
+  content: url("/shelf.png");
   position: relative;
   width: 941px;
   height: 175px;
