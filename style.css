@@ -78,9 +78,9 @@ height: 100%;
 }
 
 .highnoongame:hover {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px); /* handles chrome */
-  box-shadow: 0px 1px 0px 0px;
+  transform: translate(0px, -10px);
+  -webkit-transform: translate(0px, -10px); /* handles chrome */
+  box-shadow: 0px 10px 10px black;
 }
 
 /*
