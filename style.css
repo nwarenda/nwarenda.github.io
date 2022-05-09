@@ -119,6 +119,23 @@ text-align: left;
   color: #FFF;
 }
 
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+.spin:hover {
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+
 #spaceevenly {
 justify-content: space-evenly;
 }
