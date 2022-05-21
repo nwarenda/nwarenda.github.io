@@ -3,15 +3,6 @@
     ID: #id
 */
 
-html{
-/* background-image: url("/background.png"); */
-background-size: cover;
-background-repeat: no-repeat;
-background-color: #7602eb;
-background-position: center; 
-height: 100%;
-}
-
 h1{
 color: white;
 text-align: center;
@@ -31,7 +22,7 @@ font-family: 'Montserrat', sans-serif;
 background-image: url("/arcade.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-background-color: #E0A890;
+background-color: #7602eb;
 background-position: center; 
 height: 100%;
 }
