@@ -79,7 +79,7 @@ height: 100%;
 }
 
 .highnoongame:hover {
-  transform: translate(300px, 50px) scale(2.5);
+  transform: translate(0px, 50px);
   box-shadow: 0px 10px 10px black;
   transition: transform 800ms ease-in-out;
 }
