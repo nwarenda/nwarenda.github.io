@@ -2,20 +2,6 @@
     Class: .class
     ID: #id
 */
-h1 {
-  color: white;
-  text-align: center;
-  text-shadow: 3px 1px #a83242;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 64px;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  text-shadow: 3px 1px #a83242;
-  font-family: 'Montserrat', sans-serif;
-}
 
 p.highnoon {
   text-align: center
