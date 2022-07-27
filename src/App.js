@@ -1,27 +1,17 @@
-import { React, Card } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import HighNoon from './components/HighNoon';
-import Navbar from './components/Navbar';
-//import Layout from './components/Layout';
+import React from 'react';
+import './App.module.scss';
+import BaseLayout from "./components/BaseLayout";
+import {BrowserRouter} from "react-router-dom";
 
-function App () {
-
-	{/*	<BrowserRouter basename="/">
-		{/*	<HighNoon/>
-      {/* <Layout/>
-		</BrowserRouter> */}
-
-	return (
-		<>
-		<Router>
-				<Navbar />
-				<Routes> 
-					<Route path='/' exact />
-				</Routes>
-				</Router>
-		</>
-	);
+function App() {
+   return (
+      <div>
+         <BrowserRouter>
+            <BaseLayout/>
+         </BrowserRouter>
+      </div>
+   );
 }
+
 
 export default App;
