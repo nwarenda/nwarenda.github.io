@@ -1,25 +1,18 @@
 import self from "../img/self.png"
 import highnoon from "../img/highnoon.png"
 import questionmark from "../img/questionmark.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
 
+<<<<<<< HEAD
+=======
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
+>>>>>>> d8cf80fb2986c1f1e0dc472f69547c54b69ddbb7
 export let colors = ["rgb(119, 9, 31)", "rgb(255, 241, 153)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
 the site.
- */
-
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
  */
 
 export const info = {
@@ -73,6 +66,7 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
+
             live: "https://nickwar42.github.io/HighNoon", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/nickwar42/HighNoon", // this should be a link to the **repository** of the project, where the code is hosted.
             image: highnoon
