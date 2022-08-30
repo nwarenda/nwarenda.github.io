@@ -2,12 +2,7 @@ import self from "../img/self.png"
 import highnoon from "../img/highnoon.png"
 import questionmark from "../img/questionmark.png"
 
-<<<<<<< HEAD
-=======
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
 
->>>>>>> d8cf80fb2986c1f1e0dc472f69547c54b69ddbb7
 export let colors = ["rgb(119, 9, 31)", "rgb(255, 241, 153)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
