@@ -66,11 +66,8 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-<<<<<<< HEAD
-            live: "https://nickwar42.github.io/highnoon", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-=======
+
             live: "https://nickwar42.github.io/HighNoon", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
->>>>>>> d8cf80fb2986c1f1e0dc472f69547c54b69ddbb7
             source: "https://github.com/nickwar42/HighNoon", // this should be a link to the **repository** of the project, where the code is hosted.
             image: highnoon
         },
