@@ -1,8 +1,7 @@
 import React from 'react';
-import Style from './About.module.scss';
-import Terminal from "./Terminal";
+// import Style from './About.module.scss';
 import {Box} from "@mui/material";
-import {info} from "../../info/Info";
+// import {info} from "../../info/Info";
 import PDF from '../Resume-Nicholas-Warenda.pdf';
 
 export default function About() {

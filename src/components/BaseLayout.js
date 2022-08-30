@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 import Style from './BaseLayout.module.scss'
-import Navbar from "./Navbar";
-import Home from "./home/Home";
+import Navbar from "../../../nickwar42.github.io/src/components/Navbar";
+import Home from "../../../nickwar42.github.io/src/components/home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
-import Resume from '././Resume';
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -32,7 +31,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>Nicholas Warenda - Last updated July 2022</p>
+                  <p>Nicholas Warenda - Last updated August 2022</p>
                </Box>
             </Grid>
          </Grid>
