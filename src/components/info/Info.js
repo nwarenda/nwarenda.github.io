@@ -21,19 +21,19 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '🌎',
-            text: 'born and raised in Sudbury, Ontario (CA).'
+            text: 'Born and raised in Sudbury, Ontario in Canada'
         },
         {
-            emoji: "💼",
-            text: "working as a Software Developer at Accutron Instruments Inc."
+            emoji: "🔧",
+            text: "Building development skills with Unity, C# and ReactJS"
         },
         {
             emoji: "📧",
-            text: "reachable at nickwarenda(at)gmail.com."
+            text: "Reachable at nickwarenda(at)gmail.com"
         },
         {
             emoji: '🚲',
-            text: 'my interests include biking, video games, golf,'
+            text: 'Hobbies & interests include biking, video games, golf,'
         },
         {
             emoji: '📺',
@@ -56,19 +56,23 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
+        {
+            link: "https://nickwar42.itch.io/",
+            icon: "fa fa-gamepad",
+            label: 'itchio'
+        },
     ],
 
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-
-            live: "https://nickwar42.github.io/HighNoon", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/nickwar42/HighNoon", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "High Noon",
+            live: "https://nickwar42.github.io/highnoon",
+            source: "https://github.com/nickwar42/HighNoon",
             image: highnoon
         },
         {
-            title: "Project 2",
-            live: "https://github.com",
+            title: "Project 2 - Coming Soon...",
+            live: "https://github.com/nickwar42",
             source: "https://github.com/nickwar42",
             image: questionmark
         },

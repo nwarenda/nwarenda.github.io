@@ -3,6 +3,8 @@ import PortfolioBlock from "./PortfolioBlock";
 import {Box, Grid} from "@mui/material";
 import {info} from "../info/Info";
 
+
+//To Modify Portfolio, modify /info
 export default function Portfolio() {
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'2rem'}>

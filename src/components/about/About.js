@@ -2,7 +2,7 @@ import React from 'react';
 // import Style from './About.module.scss';
 import {Box} from "@mui/material";
 // import {info} from "../../info/Info";
-import PDF from '../Resume-Nicholas-Warenda.pdf';
+import PDF from '../Resume/Resume-Nicholas-Warenda.pdf';
 
 export default function About() {
 
@@ -12,8 +12,7 @@ export default function About() {
             src={PDF}
             type="application/pdf"
             height={1000}
-            width={750}
-  />
+            width={750}/>
         </Box>
     )
 }

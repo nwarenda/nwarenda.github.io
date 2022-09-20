@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Style from './Navbar.module.scss';
-import Toggler from "./home/Toggler";
+import Toggler from "../home/Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
-import {info} from "./info/Info";
+import {info} from "../info/Info";
 
 const links = [
     {
