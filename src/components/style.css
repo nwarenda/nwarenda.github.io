@@ -27,14 +27,6 @@ h1{
     height: 100%;
     }
     
-    .highnoon {
-    background-image: url("/HighNoon.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #E0A890;
-    background-position: center; 
-    height: 100%;
-    }
     /* spaghetti */
     .gameshelf {
       display: block;

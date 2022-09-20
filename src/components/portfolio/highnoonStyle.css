@@ -1,0 +1,23 @@
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px #a83242;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 64px;
+    }
+    
+    h2{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px #a83242;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.highnoon {
+    background-image: url("../img/highnoon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E0A890;
+    background-position: center; 
+    height: 100%;
+    }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box} from "@mui/material";
-import 'style.css';
+import './highnoonStyle.css';
 
 export default function HighNoon() {
     return (
@@ -11,7 +11,7 @@ export default function HighNoon() {
         <title> High Noon Playable Demo </title>
         <h2> High Noon:</h2>  
         <p style={{textAlign: 'center'}}>
-          <iframe frameBorder={0} src="https://itch.io/embed-upload/5423185?color=333333" allowFullScreen width={1000} height={700}>
+          <iframe title="HighNoon" frameBorder={0} src="https://itch.io/embed-upload/5423185?color=333333" allowFullScreen width={1000} height={700}>
             &lt;a href="https://nickwar42.itch.io/high-noon"&gt;Play High Noon on itch.io&lt;/a&gt;
           </iframe>
         </p>
