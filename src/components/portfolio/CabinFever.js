@@ -1,20 +1,20 @@
 import React from 'react';
-import {Box} from "@mui/material";
-import './highnoonStyle.css';
+import { Box } from "@mui/material";
+import './cabinfeverStyle.css';
 
 export default function CabinFever() {
-    return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'2rem'} class="cabinfever">
-      <h2>This project is currently under construction. Please check back later. </h2>
-      <hr/>
-      <h3> Inspiration for this project: </h3>
+  return (
+    <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'2rem'} class="cabinfever">
+      <div>
+        {/* <link rel="stylesheet" type="text/css" href="cabinfeverStyle.css" /> */}
+        <h2 >This project is currently under construction. Please check back later. </h2>
+        <hr />
+        <h3> Inspiration for this project: </h3>
         <h3> - Little Inferno</h3>
         <h3> - The Hateful Eight</h3>
         <h3> - Frostpunk</h3>
-        
 
-
-      {/* <div>
+        {/* <div>
         <link rel="stylesheet" type="text/css" href="cabinfeverStyle.css" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
         <title> High Noon Playable Demo </title>
@@ -24,6 +24,7 @@ export default function CabinFever() {
           </iframe>
         </p>
       </div> */}
-        </Box>
-    );
+      </div>
+    </Box>
+  );
 };
