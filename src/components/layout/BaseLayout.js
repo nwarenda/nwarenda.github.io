@@ -5,6 +5,7 @@ import Home from "../home/Home";
 import About from "../about/About";
 import Portfolio from "../portfolio/Portfolio";
 import HighNoon from "../portfolio/HighNoon";
+import CabinFever from "../portfolio/CabinFever";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
 
@@ -28,12 +29,13 @@ export default function BaseLayout() {
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
                   <Route exact path={'/highnoon'} element={<HighNoon/>}/>
+                  <Route exact path={'/cabinfever'} element={<CabinFever/>}/>
                </Routes>
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>Nicholas Warenda - Last updated August 2022</p>
+                  <p>Nicholas Warenda - Last Updated September 2022</p>
                </Box>
             </Grid>
          </Grid>

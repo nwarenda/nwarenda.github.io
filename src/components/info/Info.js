@@ -72,7 +72,7 @@ export const info = {
         },
         {
             title: "Project 2 - Coming Soon...",
-            live: "https://github.com/nickwar42",
+            live: "/cabinfever",
             source: "https://github.com/nickwar42",
             image: questionmark
         },
