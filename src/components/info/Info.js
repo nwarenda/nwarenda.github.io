@@ -66,13 +66,13 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "High Noon",
-            live: "/highnoon",
+            live: "/#/highnoon",
             source: "https://github.com/nickwar42/HighNoon",
             image: highnoon
         },
         {
             title: "Project 2 - Coming Soon...",
-            live: "/cabinfever",
+            live: "/#/cabinfever",
             source: "https://github.com/nickwar42",
             image: questionmark
         },
