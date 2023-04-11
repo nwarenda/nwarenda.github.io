@@ -1,41 +1,36 @@
 import React, { useState } from 'react';
 import Style from './Navbar.module.scss';
-import Toggler from "../home/Toggler";
+import Toggler from "../standard/Toggler";
 import { Link, useLocation } from "react-router-dom";
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 
 const links = [
     {
-        name: 'Home',
+        name: 'home', //or standard
         to: '/',
-        active: 'home'
+        active: 'standard'
     },
-    {
-        name: 'About Me',
-        to: '/about',
-        active: 'about'
-    },
-    {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
-    },
-    {
-        name: 'High Noon',
-        to: '/highnoon',
-        active: 'highnoon'
-    },
-    {
-        name: 'Project 2',
-        to: '/cabinfever',
-        active: 'cabinfever'
-    }
+    // {
+    //     name: 'Space Theme',
+    //     to: '/space',
+    //     active: 'space'
+    // },
+    // {
+    //     name: 'Retro Theme',
+    //     to: '/retro',
+    //     active: 'retro'
+    // },
+    // {
+    //     name: 'Responsive Theme',
+    //     to: '/responsive',
+    //     active: 'responsive'
+    // }
 ]
 
 export default function Navbar({ darkMode, handleClick }) {
     const location = useLocation()
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const [active, setActive] = useState(location.pathname === '/' ? 'standard' : location.pathname.slice(1, location.pathname.length));
 
     return (
         <Box component={'nav'} width={'100%'}>

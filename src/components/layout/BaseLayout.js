@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
 import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
-import Home from "../home/Home";
-import About from "../about/About";
-import Portfolio from "../portfolio/Portfolio";
+import Home from "../standard/Home";
+import Space from "../space/Home";
+import Retro from "../space/Home";
+import Responsive from "../responsive/Home";
 import HighNoon from "../portfolio/HighNoon";
 import CabinFever from "../portfolio/CabinFever";
 import {Route, Routes} from "react-router-dom";
@@ -26,8 +27,9 @@ export default function BaseLayout() {
             <Grid item flexGrow={1}>
                <Routes>
                   <Route exact path={'/'} element={<Home/>}/>
-                  <Route exact path={'/about'} element={<About/>}/>
-                  <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/space'} element={<Space/>}/>
+                  <Route exact path={'/retro'} element={<Retro/>}/>
+                  <Route exact path={'/responsive'} element={<Responsive/>}/>
                   <Route exact path={'/highnoon'} element={<HighNoon/>}/>
                   <Route exact path={'/cabinfever'} element={<CabinFever/>}/>
                </Routes>
@@ -35,7 +37,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>Nicholas Warenda - Last Updated September 2022</p>
+                  <p>Nicholas Warenda - Last Updated April 2023</p>
                </Box>
             </Grid>
          </Grid>
