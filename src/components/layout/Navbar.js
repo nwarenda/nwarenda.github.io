@@ -7,25 +7,30 @@ import { info } from "../info/Info";
 
 const links = [
     {
-        name: 'home', //or standard
+        name: 'home',
         to: '/',
         active: 'standard'
     },
+    {
+        name: 'portfolio', 
+        to: '/projects/',
+        active: 'projects'
+    }, 
+    {
+        name: 'high noon', 
+        to: '/highnoon',
+        active: 'highnoon'
+    },
+    {
+        name: 'resume', 
+        to: '/resume',
+        active: 'resume'
+    },
     // {
-    //     name: 'Space Theme',
-    //     to: '/space',
-    //     active: 'space'
+    //     name: 'proj 2', 
+    //     to: '/projects/cabinfever',
+    //     active: 'cabinfever'
     // },
-    // {
-    //     name: 'Retro Theme',
-    //     to: '/retro',
-    //     active: 'retro'
-    // },
-    // {
-    //     name: 'Responsive Theme',
-    //     to: '/responsive',
-    //     active: 'responsive'
-    // }
 ]
 
 export default function Navbar({ darkMode, handleClick }) {
@@ -39,16 +44,13 @@ export default function Navbar({ darkMode, handleClick }) {
                 textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
-                        sx={{ borderImageSource: info.gradient }}>
+                        sx={{ borderImageSource: info.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)}>
                             {!link.type && <p style={{ paddingBottom: '0.5rem' }}>{link.name}</p>}
                             {link.type && <h1>{link.name}</h1>}
                         </Link>
                     </Box>
                 ))}
-                <li>
-                    <Toggler darkMode={darkMode} handleClick={handleClick} />
-                </li>
             </Box>
         </Box>
     )

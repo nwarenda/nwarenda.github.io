@@ -8,6 +8,8 @@ import {info} from "../info/Info";
 export default function Portfolio() {
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'2rem'}>
+                     <h2 style={{borderBottom: "2px solid"}}>Current & Past Personal Projects:</h2>
+                    < br/> < br/>
             <Grid container display={'flex'} justifyContent={'center'}>
                 {info.portfolio.map((project, index) => (
                    <Grid item xs={12} md={4} key={index}>
