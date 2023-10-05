@@ -33,11 +33,7 @@ export const info = {
         },
         {
             emoji: '🚲',
-            text: 'Hobbies & interests include biking, video games, golf,'
-        },
-        {
-            emoji: '📺',
-            text: 'podcasts, movies, and hiphop/R&B/alternative music. '
+            text: 'Hobbies & interests include biking, golf, and game development'
         },
     ],
     socials: [
@@ -47,7 +43,7 @@ export const info = {
             label: 'email'
         },
         {
-            link: "https://github.com/nickwar42",
+            link: "https://github.com/nwarenda",
             icon: "fa fa-github",
             label: 'github'
         },
@@ -67,13 +63,13 @@ export const info = {
         {
             title: "High Noon",
             live: "/#/highnoon",
-            source: "https://github.com/nickwar42/HighNoon",
+            source: "https://github.com/nwarenda/HighNoon",
             image: highnoon
         },
         {
             title: "Project 2 - Coming Soon...",
             live: "/#/cabinfever",
-            source: "https://github.com/nickwar42",
+            source: "https://github.com/nwarenda",
             image: questionmark
         },
     ]

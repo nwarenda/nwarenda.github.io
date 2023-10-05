@@ -29,7 +29,6 @@ export default function Home() {
             </Box>
          </Box>
         
-         
       </Box>
       {/* <Box display={'flex'} flexDirection={'column'} alignItems={'center'} >         
             <Grid container display={'flex'} justifyContent={'center'} mt={'2rem'}>
