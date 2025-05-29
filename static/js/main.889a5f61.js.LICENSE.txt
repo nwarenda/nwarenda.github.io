@@ -5,7 +5,7 @@ object-assign
 */
 
 /**
- * @remix-run/router v1.0.0
+ * @remix-run/router v1.13.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -16,7 +16,7 @@ object-assign
  */
 
 /**
- * React Router DOM v6.4.0
+ * React Router DOM v6.20.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -27,7 +27,7 @@ object-assign
  */
 
 /**
- * React Router v6.4.0
+ * React Router v6.20.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -35,12 +35,6 @@ object-assign
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */
-
-/** @license MUI v5.10.6
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */
 
 /** @license React v0.20.2
