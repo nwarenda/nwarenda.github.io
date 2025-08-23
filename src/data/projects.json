@@ -1,0 +1,10 @@
+[
+  {
+    "title": "High Noon",
+    "imageSrc": "projects/highNoon.png",
+    "description": "My first game demo, showcasing a Western-themed shootout.",
+    "skills": ["Unity", "C#", "WebGL"],
+    "demo": "https://nwarenda.itch.io/high-noon",
+    "source": "https://github.com/nwarenda/HighNoon"
+  }
+]

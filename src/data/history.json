@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Back Shop Manager",
+    "organisation": "Golf Sudbury",
+    "startDate": "April, 2017",
+    "endDate": "Present",
+    "experiences": [
+      "Led tournament preparation and scheduling at Sudbury's most popular golf course",
+      "Delivered high-quality customer service and managed transactions using Lightspeed Golf software."
+    ],
+    "imageSrc": "history/golfSudbury.png"
+  },
+  {
+    "role": "Examiner",
+    "organisation": "Canada Revenue Agency",
+    "startDate": "Feb, 2024",
+    "endDate": "June, 2025",
+    "experiences": [
+      "Analyzed taxpayer documentation and processed returns accurately and within deadlines.",
+      "Reported data anomalies to management, recommending procedural adjustments to improve processing accuracy."
+    ],
+    "imageSrc": "history/cra.png"
+  },
+  {
+    "role": "Software Developer",
+    "organisation": "Accutron Instruments",
+    "startDate": "June, 2022",
+    "endDate": "Sept, 2022",
+    "experiences": [
+      "Modernized web app with ReactJS and Bootstrap.",
+      "Tested and deployed on embedded Linux systems"
+    ],
+    "imageSrc": "history/accutron.png"
+  }
+]

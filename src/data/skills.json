@@ -1,0 +1,50 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Unity",
+    "imageSrc": "skills/unity.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/csharp.png"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "skills/linux.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "Rest",
+    "imageSrc": "skills/api.png"
+  },
+  {
+    "title": "JSON",
+    "imageSrc": "skills/json.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "contact/githubIcon.png"
+  }
+]

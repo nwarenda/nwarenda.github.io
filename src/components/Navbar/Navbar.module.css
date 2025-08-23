@@ -1,0 +1,143 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 0 10%;
+}
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+.menu {
+  display: flex;
+}
+
+.menuBtn {
+  display: none;
+}
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.contactBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.resumeModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumeTitle {
+  display: flex;
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+
+.resumeContent {
+  background: #280434d4;
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+  max-width: 800px;
+  width: 90%;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #280434;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+  .menuBtn {
+    display: block; /* Show menu button on small screens */
+    cursor: pointer;
+  }
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgb(91, 25, 109) 0%,
+      rgb(86, 25, 109) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+  .contactBtn {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1057px) and (min-width: 831px) {
+  .menuItems {
+    gap: 24px;
+  }
+  .menuItems a {
+    font-size: 20px;
+  }
+  .contactBtn {
+    font-size: 22px;
+    padding: 12px 18px;
+  }
+}
+@media screen and (max-width: 848px) and (min-width: 831px) {
+  .navbar {
+    margin: 0 2%;
+  }
+}
